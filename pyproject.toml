@@ -4,4 +4,19 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "datasets==2.14.6",
+    "denoising-diffusion-probabilistic-models>=1.0.2",
+    "diffusion>=6.12.1",
+    "einops==0.7.0",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.0",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.8.0",
+    "seaborn>=0.13.2",
+    "statsmodels>=0.14.6",
+    "tensorflow>=2.20.0",
+    "torch>=2.9.1",
+    "torchvision>=0.24.1",
+    "transformers>=4.57.3",
+]
